@@ -5,4 +5,4 @@ const person = {
   age: 21,
 };
 
-module.exports = { items, person };
+module.exports = { items, person1:person };
