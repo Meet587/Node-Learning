@@ -7,6 +7,6 @@ const filepath = path.join("/content", "subFolder", "test.txt");
 
 const base = path.basename(filepath);
 
-const absolut = path.resolve(__dirname, "/contant", "subFolder", "text.txt");
+const absolut = path.resolve(__dirname, "\contant", "subFolder/", "text.txt");
 console.log(absolut);
 console.log(__dirname);
